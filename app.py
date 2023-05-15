@@ -135,8 +135,7 @@ with st.container():
                 with st.container():
                     st.write("---")
                     st.markdown("**SATIS RAPORU 1**")
-                    components.iframe(
-                            "https://app.powerbi.com/view?r=eyJrIjoiZDE0NThhZTctMTIyNi00N2MzLTg2YmUtOTVkZjg2ZjQ1MDFlIiwidCI6IjlmZTNjZTM5LTIwOWQtNGM5NS1hMWQxLWViZjA0NjY3NDkyYyIsImMiOjl9",
+                    components.iframe("https://app.powerbi.com/view?r=eyJrIjoiZDE0NThhZTctMTIyNi00N2MzLTg2YmUtOTVkZjg2ZjQ1MDFlIiwidCI6IjlmZTNjZTM5LTIwOWQtNGM5NS1hMWQxLWViZjA0NjY3NDkyYyIsImMiOjl9",
                             height=600, width=1000)
 
                     st.write("---")
