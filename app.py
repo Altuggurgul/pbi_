@@ -43,7 +43,7 @@ with st.container():
         with st.container():
 
             st.write("**Satış Raporu - 1**")
-            show_pdf("POWERBICANLI_PDF/Satıs_Dhasboard_DEV.pdf")
+            show_pdf("./POWERBICANLI_PDF/Satıs_Dhasboard_DEV.pdf")
 
             st.write("---")
             st.write("**Satış Raporu - 2**")
