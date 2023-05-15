@@ -9,7 +9,7 @@ import base64
 
 import streamlit_authenticator as stauth
 
-st.set_page_config(page_title="My Webpage", page_icon=": tada :", layout="wide")
+st.set_page_config(page_title="My Webpage", page_icon=": tada :", layout="wide",initial_sidebar_state="expanded")
 
 names = ["Altug Gurgul", "Mehmet Ergan", "Yusuf Yavuzcan"]
 usernames = ["agurgul", "mergan", "yyavuzcan"]
