@@ -91,7 +91,7 @@ if authentication_status:
 
                 st.write("---")
                 st.write("**CEO Dashboard(Satıs)**")
-                show_pdf("POWERBICANLI_PDF/1_Yönetici Dashboard.pdf")
+                show_pdf("POWERBICANLI_PDF/1_Yonetici Dashboard.pdf")
 
                 st.write("---")
                 st.write("**Satış Raporu - 4**")
@@ -702,7 +702,7 @@ if authentication_status:
                                 if st.button('PDF Görünümünü Aç', key='1'):
                                     with col2:
                                         st.subheader("Rapor Sayfaları")
-                                        show_pdf('POWERBICANLI_PDF/1_Yönetici Dashboard.pdf')
+                                        show_pdf('POWERBICANLI_PDF/1_Yonetici Dashboard.pdf')
 
                                 st.button('PDF Görünümünü Kapat', key='2')
 
