@@ -66,7 +66,7 @@ if authentication_status:
             with col1:
                 st.subheader("Tüm Rapor Listesi")
                 st.table(df)
-                st.write("*Son Güncelleme Tarihi: 04.05.2023*")
+                st.write("*Son Güncelleme Tarihi: 16.05.2023*")
 
             with st.container():
 
