@@ -152,7 +152,7 @@ if authentication_status:
 
                 st.write("---")
                 st.write("**Satış Raporu - 7**")
-                show_pdf("POWERBICANLI_PDF/1_Ürün Satıs Icgoruleri.pdf")
+                show_pdf("POWERBICANLI_PDF/1_Urun Satıs Icgoruleri.pdf")
 
                 st.write("---")
                 st.write("**Satış Raporu - 8**")
@@ -1000,11 +1000,11 @@ if authentication_status:
                                 if st.button('PDF Görünümünü Aç', key='1'):
                                     with col2:
                                         st.subheader("Rapor Sayfaları")
-                                        show_pdf('POWERBICANLI_PDF/1_Ürün Satıs Icgoruleri.pdf')
+                                        show_pdf('POWERBICANLI_PDF/1_Urun Satıs Icgoruleri.pdf')
 
                                 st.button('PDF Görünümünü Kapat', key='2')
 
-                                with open("POWERBICANLI_PDF/1_Ürün Satıs Icgoruleri.pdf",
+                                with open("POWERBICANLI_PDF/1_Urun Satıs Icgoruleri.pdf",
                                           "rb") as pdf_file:
                                     PDFbyte = pdf_file.read()
                                 st.download_button(label="PDF Görünümü İndir", key='3',
